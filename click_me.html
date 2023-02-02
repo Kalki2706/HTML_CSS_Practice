@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click me button</title>
+    <style>
+      body {
+        background-color: rgb(34, 34, 34);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        min-width: 100vh;
+      }
+
+      .click_me {
+        position: fixed;
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+        padding: 70px;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 60px;
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 65px;
+        border-bottom-left-radius: 3px;
+        outline: none;
+        box-shadow: 18px 10px 0px 1.3px rgba(84, 131, 92, 0.548),
+          inset -4px 0px 4px 0px rgba(84, 131, 92, 0.548);
+        transition: box-shadow 0.15s, background-color 0.15s, color 0.15s,
+          opacity 0.15, margin 0.15s;
+        cursor: pointer;
+      }
+
+      .click_me:hover {
+        background-color: rgb(84, 131, 92);
+        color: rgb(216, 205, 205);
+      }
+
+      .click_me:active {
+        margin: 0px -20px -10px 0px;
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Click me button -->
+    <button class="click_me">Click Me</button>
+  </body>
+</html>
