@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Arial more Spans</title>
+    <style>
+      span {
+        font-family: Arial;
+        display: inline-block;
+      }
+
+      p {
+        margin: 0 0;
+      }
+
+      .stock_value {
+        font-size: 36px;
+        margin-bottom: 8px;
+      }
+
+      .currency {
+        margin-left: 6px;
+        font-size: 18px;
+        color: rgb(105, 105, 105);
+      }
+
+      .increased_stocks {
+        color: rgb(40, 133, 31);
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .after_hour_stocks {
+        color: rgb(105, 105, 105);
+        font-size: 18px;
+      }
+
+      .decreased_stocks {
+        color: rgb(199, 52, 32);
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Stock Value -->
+    <span class="stock_value">1,049.61</span>
+
+    <!-- Stock value in USD -->
+    <span class="currency">USD</span>
+
+    <!-- Increased stocks today -->
+    <p>
+      <span class="increased_stocks">&plus;18.05 (1.75&percnt;) today</span>
+    </p>
+
+    <!-- After hours value -->
+    <span class="after_hour_stocks">After hours 1,048.00</span>
+
+    <!-- Decreased stocks -->
+    <span class="decreased_stocks">-1.61 (0.15%)</span>
+  </body>
+</html>
