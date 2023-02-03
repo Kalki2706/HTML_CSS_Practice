@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Styles</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .video_title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
+
+      .video_title,
+      .para {
+        width: 280px;
+      }
+
+      .date {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+      }
+
+      .author {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+      }
+
+      .para {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        line-height: 22px;
+        margin-bottom: 100px;
+      }
+
+      .apple_text {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 18px;
+      }
+
+      .shop_link {
+        cursor: pointer;
+      }
+
+      .shop_link:hover {
+        text-decoration: underline;
+      }
+
+      .span_example {
+        cursor: pointer;
+        color: rgb(255, 0, 0);
+        margin: 0 0 0 12px;
+      }
+
+      .span_example:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Title Text -->
+    <!-- NOTE: <p> by default, come with margin at the top and bottom -->
+    <p class="video_title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+
+    <!-- Timeline -->
+    <p class="date">3.4M views &#183; 6 months ago</p>
+
+    <!-- Author name -->
+    <p class="author">Marques Brownlee &check;</p>
+
+    <!-- Heading Paragraph -->
+    <p class="para">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone
+      reveal from Google's CEO. Shoutout to Sundar!
+    </p>
+
+    <!-- Shop Link using html text element -->
+    <p class="apple_text">
+      Shop early for the best section of holiday favourites.
+      <span class="shop_link">Shop now &#62;</span>
+    </p>
+
+    <!-- HTML text element examples -->
+    <!-- used strong element to make font dark and bold, u element is for underline the text and span comes with no styling even it doesn't have margin or padding we can style it by ourself. -->
+    <p>
+      Shop early for the <strong>best section</strong> of
+      <u>holiday</u> favourites.
+      <span class="span_example">Shop now &#62;</span>
+    </p>
+  </body>
+</html>
