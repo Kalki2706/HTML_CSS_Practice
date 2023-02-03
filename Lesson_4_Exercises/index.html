@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome Devtools & CSS Box Model</title>
+    <style>
+      .subscribe_button {
+        background-color: rgb(204, 0, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 6px;
+        transition: opacity 0.15s;
+        padding: 10px 16px;
+        vertical-align: top;
+      }
+
+      .subscribe_button:hover {
+        opacity: 0.7;
+      }
+
+      .subscribe_button:active {
+        opacity: 0.5;
+      }
+
+      .join_button {
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(6, 95, 212);
+        border-style: solid;
+        border-radius: 2px;
+        border-width: 1px;
+        color: rgb(6, 95, 212);
+        padding: 9px 16px;
+        cursor: pointer;
+        transition: backhround-color 0.15s, color 0.15s;
+      }
+
+      .join_button:hover {
+        background-color: rgb(6, 95, 212);
+        color: rgb(255, 255, 255);
+      }
+
+      .join_button:active {
+        opacity: 0.7;
+      }
+
+      .tweet_button {
+        background-color: rgb(29, 155, 240);
+        color: rgb(255, 255, 255);
+        margin-left: 6px;
+        border: none;
+        padding: 9px 16px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+      }
+
+      .tweet_button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Subscribe Button -->
+    <button class="subscribe_button">SUBSCRIBE</button>
+
+    <!-- Join Button -->
+    <button class="join_button">JOIN</button>
+
+    <!-- Tweet Button -->
+    <button class="tweet_button">Tweet</button>
+  </body>
+</html>
