@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Arial with More Spans</title>
+    <style>
+      body {
+        font-size: 25px;
+        font-family: Arial;
+      }
+
+      p {
+        margin: 0 0;
+      }
+
+      span {
+        display: inline-block;
+      }
+
+      .title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .publisher {
+        color: rgb(107, 107, 107);
+        transition: color 0.15s;
+      }
+
+      .publisher:hover {
+        color: rgb(39, 140, 223);
+      }
+
+      .body_para {
+        width: 800px;
+        margin-bottom: 35px;
+      }
+
+      .skills_link {
+        color: rgb(55, 142, 201);
+        cursor: pointer;
+        text-decoration: none;
+        transition: color 0.15s;
+      }
+
+      .skills_link:hover {
+        color: rgb(179, 22, 74);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Title -->
+    <span class="title">freeCodeCamp.org</span>
+
+    <!-- account name & timeline -->
+    <!-- Twitter account link added -->
+    <a href="https://twitter.com/freeCodeCamp" target="_blank"
+      ><span class="publisher">&commat;freeCodeCamp 1h</span></a
+    >
+
+    <!-- Paragraph -->
+    <p class="body_para">
+      As a web developer, you'll want to make our projects easy to use and
+      nevigate around.
+    </p>
+
+    <!-- link with para and span -->
+    <p>
+      Here
+      <!-- Added link in para -->
+      <a
+        href="https://www.freecodecamp.org/learn/"
+        target="_blank"
+        class="skills_link"
+        >&commat;chp_it </a
+      >outlines the top skils new developers should have.
+    </p>
+  </body>
+</html>
