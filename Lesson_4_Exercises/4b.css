@@ -1,0 +1,13 @@
+.cart_button {
+  background-color: rgb(255, 225, 75);
+  color: rgb(0, 0, 0);
+  padding: 7.3px 46.3px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.cart_button:hover {
+  background-color: rgb(255, 216, 20);
+}
