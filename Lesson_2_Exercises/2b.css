@@ -1,0 +1,8 @@
+.amazon_button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 30px;
+  width: 160px;
+  border-radius: 15px;
+  cursor: pointer;
+}
