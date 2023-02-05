@@ -1,0 +1,17 @@
+.tweet_button {
+  background-color: rgb(29, 155, 240);
+  color: rgb(255, 255, 255);
+  margin-left: 6px;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.tweet_button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
