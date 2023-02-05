@@ -1,0 +1,24 @@
+.apply_button {
+  background-color: rgb(10, 102, 194);
+  color: rgb(255, 255, 255);
+  width: 210px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.save_button {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(10, 102, 194);
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  border-style: solid;
+  width: 65px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  border-width: 1px;
+}
