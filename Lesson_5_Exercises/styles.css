@@ -1,0 +1,63 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video_title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video_title,
+.para {
+  width: 280px;
+}
+
+.date {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.para {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple_text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 18px;
+}
+
+.shop_link {
+  cursor: pointer;
+}
+
+.shop_link:hover {
+  text-decoration: underline;
+}
+
+.span_example {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+  margin: 0 0 0 12px;
+}
+
+.span_example:hover {
+  text-decoration: underline;
+}
