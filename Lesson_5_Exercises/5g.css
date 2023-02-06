@@ -1,0 +1,43 @@
+body {
+  font-size: 25px;
+  font-family: Arial;
+}
+
+p {
+  margin: 0 0;
+}
+
+span {
+  display: inline-block;
+}
+
+.title {
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+}
+
+.publisher {
+  color: rgb(107, 107, 107);
+  transition: color 0.15s;
+}
+
+.publisher:hover {
+  color: rgb(39, 140, 223);
+}
+
+.body_para {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.skills_link {
+  color: rgb(55, 142, 201);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.skills_link:hover {
+  color: rgb(179, 22, 74);
+}
