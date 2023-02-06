@@ -1,0 +1,25 @@
+p {
+  font-family: Arial;
+  margin: 0 0;
+  text-align: center;
+}
+
+.business_shopping {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+
+.work_help {
+  font-size: 20.5px;
+  margin-bottom: 18px;
+}
+
+.span_link {
+  color: rgb(96, 131, 226);
+  cursor: pointer;
+}
+
+.span_link:hover {
+  text-decoration: underline;
+}
