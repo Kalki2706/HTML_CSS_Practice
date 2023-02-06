@@ -1,0 +1,33 @@
+p,
+button {
+  font-family: Verdana;
+  margin: 0 0;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  font-size: 22px;
+  color: rgb(129, 129, 129);
+  margin-bottom: 25px;
+}
+
+.body {
+  line-height: 20px;
+  width: 300px;
+  margin-bottom: 18px;
+}
+
+.start_button {
+  font-size: 13.5px;
+  background-color: rgb(5, 136, 11);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
