@@ -5,6 +5,7 @@
   border: none;
   margin: 0px 10px 0 10px;
   cursor: pointer;
+  transition: padding 0.4s, margin 0.4s;
 }
 
 .stretch_buttons:hover {
