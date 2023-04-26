@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        height: 300px;
+        /* object fit tries to cover the image within given width & height */
+        /* object-fit: cover; */
+        /* after covering image you can set which position you want */
+        object-position: top;
+        /* contain property tries to contain the image within width & height by making img smaller */
+        object-fit: contain;
+        /* with border property you can see how contain property works */
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="./img/thumbnail-1.webp"
+      alt="CEO Sundar Pichai"
+      class="thumbnail"
+    />
+  </body>
+</html>
