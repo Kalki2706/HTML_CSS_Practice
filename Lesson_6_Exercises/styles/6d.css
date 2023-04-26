@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+
+span {
+  text-decoration: underline;
+}

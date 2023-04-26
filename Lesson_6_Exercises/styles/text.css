@@ -1,5 +1,5 @@
 p {
-  font-family: Arial;
+  font-family: Roboto;
   margin: 0;
 }
 
@@ -23,13 +23,13 @@ p {
 
 .author {
   font-size: 14px;
-  color: rgb(96, 96, 96);
+  color: #606060;
   margin-bottom: 20px;
 }
 
 .para {
   font-size: 14px;
-  color: rgb(96, 96, 96);
+  color: #606060;
   line-height: 22px;
   margin-bottom: 100px;
 }
@@ -37,8 +37,8 @@ p {
 .apple_text {
   margin-bottom: 50px;
   font-size: 14px;
-  background-color: rgb(227, 65, 64);
-  color: rgb(255, 255, 255);
+  background-color: #e34140;
+  color: #fff;
   text-align: center;
   padding: 18px;
 }
@@ -53,7 +53,7 @@ p {
 
 .span_example {
   cursor: pointer;
-  color: rgb(255, 0, 0);
+  color: #ff0000;
   margin: 0 0 0 12px;
 }
 
