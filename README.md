@@ -13,3 +13,11 @@ Gonna make YouTube Clone with HTML & CSS.
 4th Exercise => Learnt about CSS Box Model.
 
 5th Exercise => Learnt about text styling, text elements like span, strong, etc.
+
+6th Exercise => Learnt about HTML Page Structure.
+
+8th Exercise => Learnt about types of display element. The types are:
+
+1. Block Element
+2. Inline - block Element
+3. Inline Element
