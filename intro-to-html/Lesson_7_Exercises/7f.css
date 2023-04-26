@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+p {
+  color: #4e4e4e;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 450px;
+  padding: 10px 8px;
+  border: 2px solid #4d4c4c;
+  border-radius: 4px;
+}
+
+button {
+  width: 465px;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #0a66c2;
+  color: #fff;
+}
