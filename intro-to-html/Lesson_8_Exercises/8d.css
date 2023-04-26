@@ -1,0 +1,30 @@
+.first-name,
+.last-name,
+.email {
+  font-size: 1.125rem;
+  border: 2px solid #d8d6d6;
+  padding: 0.75em 0 0.75em 0.9375em;
+  border-radius: 8px;
+}
+
+.first-name,
+.last-name {
+  width: 150px;
+  margin-bottom: 0.75em;
+}
+
+.email {
+  display: block;
+  width: 325px;
+}
+
+button {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0.7em;
+  padding: 0.75em 7.68em;
+  background-color: #2f6ddf;
+  border: none;
+  border-radius: 8px;
+}
