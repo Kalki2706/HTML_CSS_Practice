@@ -1,0 +1,9 @@
+.wrap {
+  border: 1px solid #bababa;
+  width: 280px;
+  padding: 0 0 20px 15px;
+}
+
+button {
+  padding: 1px 8px;
+}
