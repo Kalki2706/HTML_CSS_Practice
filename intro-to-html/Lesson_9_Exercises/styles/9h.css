@@ -1,0 +1,40 @@
+.logo {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 800px;
+  padding: 12px 0 12px 15px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px #dbdbdb;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.search,
+.lucky {
+  font-weight: 400;
+  font-size: 16px;
+  color: #646363;
+  padding: 10px 18px;
+  border: none;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
