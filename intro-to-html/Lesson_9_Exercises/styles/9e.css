@@ -1,0 +1,47 @@
+* {
+  font-family: "Roboto";
+}
+
+.container {
+  margin: 20px 0 0 20px;
+  padding: 10px 10px;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 2px 3px 10px #d4d4d4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+img {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input {
+  vertical-align: middle;
+  border: none;
+  color: #2b2b2b;
+  font-size: 20px;
+  width: 320px;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+  padding: 6px 0;
+  padding-left: 8px;
+  border-radius: 25px;
+}
+
+button {
+  vertical-align: middle;
+  padding: 6px 15px;
+  border-radius: 18px;
+  background-color: #1da1f2;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
