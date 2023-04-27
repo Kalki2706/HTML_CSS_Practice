@@ -1,0 +1,44 @@
+* {
+  font-family: "Roboto";
+}
+
+.container {
+  box-shadow: 1px 2px 10px #cfcfcf;
+  width: 200px;
+  margin: 20px 10px;
+  display: inline-block;
+}
+
+h1,
+p {
+  padding-left: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  margin-top: 8px;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #585858;
+  margin-bottom: 0;
+}
+
+button {
+  margin: 12px 0 10px 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 8px 12px;
+  background-color: #107fff;
+  color: #fff;
+  cursor: pointer;
+}
