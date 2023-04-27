@@ -1,0 +1,17 @@
+.container {
+  color: #fff;
+  width: 350px;
+  background-color: #313131;
+  padding: 1px 0px 10px 15px;
+  font-family: "Roboto";
+}
+
+.para-one {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.para-two {
+  font-size: 15px;
+}
