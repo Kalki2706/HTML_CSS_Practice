@@ -1,10 +1,18 @@
+* {
+  font-family: "Roboto", Arial;
+}
+
 h1 {
-  font-size: 28px;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .profile-pictures {
   width: 200px;
   height: 200px;
+  border-radius: 2px;
 }
 
 .friend-profile {
@@ -18,16 +26,31 @@ h1 {
 }
 
 .friend-requests {
-  /* width: 100px; */
+  font-weight: 400;
   vertical-align: middle;
   display: inline-block;
+  margin: 0;
 }
 
 .container {
   display: inline-block;
+  margin: 10px 15px 10px 10px;
+  border-radius: 2px;
   vertical-align: top;
+  box-shadow: 0px 4px 10px #000;
+}
+
+.cry-cat {
+  object-fit: cover;
+  object-position: right;
 }
 
 button {
   display: block;
+  color: white;
+  background-color: blue;
+}
+
+.image-row {
+  margin-bottom: 5px;
 }
