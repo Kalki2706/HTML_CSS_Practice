@@ -1,0 +1,17 @@
+a {
+  text-align: center;
+  font-size: 55px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 100px;
+  color: #138822;
+}
+
+a:hover {
+  color: #ae27fc;
+}
+
+img {
+  display: block;
+  margin-bottom: 100px;
+}
