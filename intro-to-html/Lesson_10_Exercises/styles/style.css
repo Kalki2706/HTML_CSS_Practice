@@ -1,0 +1,72 @@
+/* .thumbnail {
+          width: 300px;
+          height: 300px;
+          /* object fit tries to cover the image within given width & height */
+/* object-fit: cover; */
+/* after covering image you can set which position you want */
+/* object-position: top; */
+/* contain property tries to contain the image within width & height by making img smaller */
+/* object-fit: contain; */
+/* with border property you can see how contain property works */
+/* border: 2px solid red;
+      } */
+
+p {
+  /* font stack = fall back font */
+  font-family: "Roboto", Arial;
+  margin: 0;
+}
+
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.search-bar {
+  display: block;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info {
+  width: 200px;
+  display: inline-block;
+}
+
+.profile-picture {
+  width: 75%;
+  border-radius: 50%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+.video-author,
+.video-stats {
+  color: #606060;
+  font-size: 12px;
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
