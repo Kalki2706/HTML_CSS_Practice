@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>YouTube Clone</title>
     <style>
       /* .thumbnail {
@@ -19,6 +25,12 @@
       /* border: 2px solid red;
       } */
 
+      p {
+        /* font stack = fall back font */
+        font-family: "Roboto", Arial;
+        margin: 0;
+      }
+
       .thumbnail {
         width: 300px;
         display: block;
@@ -30,6 +42,10 @@
 
       .video-title {
         margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 12px;
       }
 
       .video-preview {
@@ -57,6 +73,16 @@
 
       .thumbnail-row {
         margin-bottom: 12px;
+      }
+
+      .video-author,
+      .video-stats {
+        color: #606060;
+        font-size: 12px;
+      }
+
+      .video-author {
+        margin-bottom: 4px;
       }
     </style>
   </head>
@@ -93,17 +119,29 @@
     </div>
 
     <div class="video-preview">
-      <img
-        src="./thumbnails/thumbnail-2.webp"
-        alt="CEO Sundar Pichai"
-        class="thumbnail"
-      />
+      <div class="thumbnail-row">
+        <img
+          src="./thumbnails/thumbnail-2.webp"
+          alt="CEO Sundar Pichai"
+          class="thumbnail"
+        />
+      </div>
+      <div>
+        <div class="channel-picture">
+          <img
+            class="profile-picture"
+            src="channel-pictures/channel-2.jpeg"
+            alt="Markiplier"
+          />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
 
-      <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
 
-      <p class="video-author">Markiplier</p>
-
-      <p class="video-stats">19M views &#183; 4 years ago</p>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
