@@ -66,6 +66,11 @@ button {
   text-align: center;
   border-radius: 3px;
   cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #050542;
 }
 
 .image-row {
