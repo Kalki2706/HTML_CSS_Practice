@@ -1,0 +1,33 @@
+h1 {
+  font-size: 28px;
+}
+
+.profile-pictures {
+  width: 200px;
+  height: 200px;
+}
+
+.friend-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friend-requests {
+  /* width: 100px; */
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+button {
+  display: block;
+}
