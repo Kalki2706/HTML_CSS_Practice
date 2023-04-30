@@ -65,7 +65,6 @@ button {
   padding: 8px 21px;
   text-align: center;
   border-radius: 3px;
-  cursor: pointer;
   transition: background-color 0.2s;
 }
 
@@ -79,4 +78,10 @@ button:hover {
 
 .user-info {
   padding-left: 10px;
+}
+
+.friend-profile,
+.friend-requests,
+button {
+  cursor: pointer;
 }
