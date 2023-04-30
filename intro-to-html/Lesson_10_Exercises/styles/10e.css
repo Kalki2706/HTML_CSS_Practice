@@ -3,38 +3,49 @@
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 24px;
   margin: 0;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .profile-pictures {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   border-radius: 2px;
 }
 
 .friend-profile {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 25px;
   object-fit: cover;
   object-position: top;
   display: inline-block;
   vertical-align: middle;
+  margin-right: 5px;
 }
 
 .friend-requests {
+  font-size: 15px;
   font-weight: 400;
+  color: #606060;
   vertical-align: middle;
   display: inline-block;
   margin: 0;
 }
 
-.container {
+.sub-container {
   display: inline-block;
-  margin: 10px 15px 10px 10px;
   border-radius: 2px;
   vertical-align: top;
   box-shadow: 0px 4px 10px #000;
@@ -46,11 +57,22 @@ h1 {
 }
 
 button {
+  font-size: 15px;
+  margin-top: 8px;
   display: block;
   color: white;
-  background-color: blue;
+  background-color: #3874e9;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .image-row {
   margin-bottom: 5px;
+}
+
+.user-info {
+  padding-left: 6px;
+  padding-bottom: 6px;
 }
