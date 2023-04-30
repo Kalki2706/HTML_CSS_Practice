@@ -25,18 +25,16 @@ h1 {
 }
 
 .friend-profile {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 25px;
-  object-fit: cover;
-  object-position: top;
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
 }
 
 .friend-requests {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #606060;
   vertical-align: middle;
@@ -48,7 +46,7 @@ h1 {
   display: inline-block;
   border-radius: 2px;
   vertical-align: top;
-  box-shadow: 0px 4px 10px #000;
+  box-shadow: 2px 2px 10px #b8b8b8;
 }
 
 .cry-cat {
@@ -57,22 +55,23 @@ h1 {
 }
 
 button {
-  font-size: 15px;
-  margin-top: 8px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: block;
   color: white;
   background-color: #3874e9;
   border: none;
-  padding: 8px 16px;
+  padding: 8px 21px;
+  text-align: center;
   border-radius: 3px;
   cursor: pointer;
 }
 
 .image-row {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .user-info {
-  padding-left: 6px;
-  padding-bottom: 6px;
+  padding-left: 10px;
 }
