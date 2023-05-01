@@ -55,16 +55,17 @@
         margin-right: 15px;
       }
 
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
       .channel-picture {
-        display: inline-block;
         width: 50px;
         vertical-align: top;
-        background-color: #b8b8b8;
       }
 
       .video-info {
-        background-color: #b8b8b8;
-        width: 245px;
         display: inline-block;
       }
 
@@ -100,7 +101,7 @@
         />
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture">
           <img
             class="profile-picture"
@@ -128,7 +129,7 @@
           class="thumbnail"
         />
       </div>
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture">
           <img
             class="profile-picture"
