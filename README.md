@@ -2,7 +2,7 @@
 
 Gonna make YouTube Clone with HTML & CSS.
 
-# Details
+<!-- # Details -->
 
 1st Exercise => Anchor tag & Button tag.
 
