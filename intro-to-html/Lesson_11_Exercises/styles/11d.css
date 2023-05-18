@@ -18,7 +18,6 @@ img {
 .name {
   font-size: 32px;
   margin: 0;
-  margin-bottom: 10px;
   font-family: "Roboto", Arial;
 }
 
@@ -27,6 +26,7 @@ img {
   grid-template-columns: 35px 1fr;
   column-gap: 8px;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 .logo {
@@ -39,7 +39,6 @@ img {
   font-size: 18px;
   font-weight: 400;
   color: #606060;
-  margin-top: 8px;
 }
 
 .info {
