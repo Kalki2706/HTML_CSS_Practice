@@ -18,6 +18,7 @@ img {
 .name {
   font-size: 32px;
   margin: 0;
+  margin-bottom: 2px;
   font-family: "Roboto", Arial;
 }
 
@@ -39,6 +40,7 @@ img {
   font-size: 18px;
   font-weight: 400;
   color: #606060;
+  margin: 8px 0;
 }
 
 .info {
