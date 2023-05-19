@@ -1,0 +1,28 @@
+.container {
+  border-radius: 5px;
+  padding: 0px 16px;
+  border: 1px solid #d4d4d4;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.para {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.num {
+  background-color: #2e56da;
+  border: none;
+  border-radius: 18px;
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
