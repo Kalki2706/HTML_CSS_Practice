@@ -61,8 +61,7 @@ h1 {
 
 button {
   font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   display: block;
   color: white;
   background-color: #3874e9;
