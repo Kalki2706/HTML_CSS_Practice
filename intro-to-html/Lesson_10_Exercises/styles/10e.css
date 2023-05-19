@@ -24,21 +24,26 @@ h1 {
   border-radius: 2px;
 }
 
+.friend-profile-div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .friend-profile {
   width: 35px;
   height: 35px;
   border-radius: 25px;
-  display: inline-block;
-  vertical-align: middle;
   margin-right: 5px;
+}
+
+.friend-request-div {
+  display: inline-block;
 }
 
 .friend-requests {
   font-size: 18px;
   font-weight: 400;
   color: #606060;
-  vertical-align: middle;
-  display: inline-block;
   margin: 0;
 }
 
