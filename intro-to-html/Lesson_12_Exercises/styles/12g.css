@@ -1,0 +1,58 @@
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.img {
+  width: 135px;
+}
+
+.profile {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nature {
+  margin: 4px 0;
+}
+
+.popularity {
+  margin: 0;
+}
+
+.nature,
+.popularity {
+  font-size: 21px;
+  color: #9c9c9c;
+}
+
+.follow {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+
+.follow-btn {
+  font-size: 18px;
+  margin: 0;
+  padding: 12px 24px;
+  background-color: #2189ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
