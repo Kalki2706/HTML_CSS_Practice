@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 50px;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: lightpink;
+}
+
+.item1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.item2 {
+  width: 200px;
+  background-color: lightblue;
+}
