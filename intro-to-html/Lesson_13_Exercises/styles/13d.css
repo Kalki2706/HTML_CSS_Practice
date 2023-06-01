@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.sub-container {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 1px solid #cdcdcd;
+  box-shadow: 2px 2px 10px 0 #00f, -2px -2px 10px 0 #f00;
+  border-radius: 4px;
+  width: 500px;
+  margin: 10px;
+}
+
+.all-inbox {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+
+.cat-img {
+  width: 65px;
+  border-radius: 33px;
+}
+
+.mail-info {
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.title-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 23px;
+}
+
+.sale {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.sale-info {
+  font-size: 18px;
+}
+
+p {
+  color: #afafaf;
+}
