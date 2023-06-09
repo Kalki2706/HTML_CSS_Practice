@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexbox {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 10px 20px 30px;
+  font-family: sans-serif;
+  border: 1px solid #dddddd;
+  box-shadow: 2px 2px 10px 0 #dddddd;
+  border-radius: 7px;
+}
+
+.all-inbox {
+  font-size: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.all-inbox,
+p {
+  color: #a3a3a3;
+}
+
+.usr-img-mail {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 20px;
+}
+
+.img {
+  align-self: center;
+}
+
+.mail {
+  line-height: 1.4;
+}
+
+.usr-img {
+  width: 50px;
+  border-radius: 28px;
+}
+
+.head-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head {
+  font-size: 10px;
+}
+
+.time {
+  font-size: 15px;
+}
+
+.subject {
+  font-size: 12px;
+}
+
+.mail-info {
+  font-size: 18px;
+}
